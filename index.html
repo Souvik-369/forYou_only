@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday to my Mental !</title>
+    <link rel="stylesheet" href="wish.css">
+</head>
+<body>
+    <header>
+        <h1>Happy Birthday Janki !</h1>
+        <p id="countdown">Countdown to the special day: 7 jan 2024 </p>
+    </header>
+
+    <section id="photo-gallery">
+        <h2>Memories Together</h2>
+        <div class="gallery">
+            <div class="image-container">
+            <!-- Add your photo gallery here -->
+            <img src="mental1.jpeg" alt="Memorable Moment 1">
+            <img src="mental2.jpeg" alt="Memorable Moment 2">
+            <img src="mental3.jpeg" alt="Memorable Moment 1">
+            <img src="mental4.jpeg" alt="Memorable Moment 2">
+            <!-- Add more images as needed -->
+        </div>
+        </div>
+    </section>
+    <section id="contact-form">
+        <h2>Contact Tuli </h2>
+        <form id="birthdayForm">
+            <label for="name">Your Husband Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="message">Birthday Wishes:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Wishes</button>
+        </form>
+    </section>
+    <section id="virtual-gift-box">
+        <h2>Virtual Gift Box</h2>
+        <!-- Add links to special videos, messages, or other surprises here -->
+        <p>Click on the virtual gift to reveal the surprise!</p>
+        <a href="#" id="virtualGift" onclick="revealGift()">🎁 Virtual Gift 🎁</a>
+        <div id="giftContent" style="display: none;">
+            <img src="https://i.pinimg.com/236x/d8/d5/d6/d8d5d63196d2677e30e44f70ef216000.jpg">
+            <p>Happy Birthday Mental ! 🎉</p>
+            <p>I am going to marry you, i love you amr pagal vutni mental bou !</p>
+        </div>
+    </section>
+    <section id="love-letters">
+        <h2>Love Letter</h2>
+        <!-- Add your love letters and messages here -->
+        <p>Write a love letter to Souvik not here write in a paper  :</p>
+        <textarea id="loveLetter" rows="4"></textarea>
+        <button onclick="submitLoveLetter()">Send Love Letter</button>
+    </section>
+    <script src="wish.js"></script>
+</body>
+</html>
